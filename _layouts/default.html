@@ -31,6 +31,19 @@
     {% include navbar.html %}
     {{ content }}
     {% include footer.html %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131515261-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131515261-1');
+    </script>
+
 
     <!-- JS Global Compulsory -->
     <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
