@@ -1,0 +1,11 @@
+
+version: '3'
+services:
+  site:
+    container_name: platformops
+    command: jekyll serve --watch --drafts
+    image: jekyll/jekyll:latest
+    volumes:
+      - $PWD:/srv/jekyll
+    ports:
+      - 4000:4000
