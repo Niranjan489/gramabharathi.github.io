@@ -1,0 +1,122 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+{% if post.image %}
+<article class="card flex-fill border-0">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        {% if site.lazyimages == "enabled" %}
+        <img class="card-img-top lazyimg"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+            data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}"
+            alt="{{ post.title }}">
+        {% else %}
+        <img class="card-img-top"
+            src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}"
+            alt="{{ post.title }}">
+        {% endif %}
+    </a>
+    <div class="card-body p-5">
+        <!-- Post Info -->
+        <ul class="list-inline small text-muted mb-1">
+            <li class="list-inline-item mr-0">
+                <a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a>
+            </li>
+            <li class="list-inline-item mx-2">–</li>
+            <li class="list-inline-item">{{ post.date | date_to_string }}</li>
+        </ul>
+        <!-- End Post Info -->
+
+        <!-- Info -->
+        <div class="mb-4">
+            <h3 class="h5 mb-0">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h3>
+            <p class="mb-0">
+                {{ post.excerpt | strip_html | truncatewords:15 }}
+            </p>
+        </div>
+    </div>
+</article>
+{% elsif post.video %}
+<article class="card d-block border-0 transition-3d-hover mt-1">
+    <div class="card-body p-5">
+        <!-- Header -->
+        <header class="d-flex justify-content-between align-items-center mb-4">
+
+            <a class="btn btn-xs btn-icon btn-soft-success rounded-circle" href="javascript:;"><span
+                    class="fas fa-arrow-up btn-icon__inner"></span></a><small class="d-block text-muted">
+                {{ post.date | date_to_string }}
+            </small></header>
+        <!-- End Header -->
+        <!-- Info -->
+        <div class="mb-4">
+            <!-- Video Content -->
+            {% if post.thumbnail %}
+            <div class="bg-img-hero text-center space-5" style="{{ post.thumbnail }}">
+
+                <!-- Fancybox -->
+                <a class="js-fancybox u-media-player mb-4" href="javascript:;" data-src="{{ post.video }}"
+                    data-speed="700" data-animate-in="zoomIn" data-animate-out="zoomOut"
+                    data-caption="Front - Responsive Website Template">
+                    <span class="u-media-player__icon u-media-player__icon--lg">
+                        <span class="fas fa-play u-media-player__icon-inner"></span>
+                    </span>
+                </a>
+                <!-- End Fancybox -->
+                <br>
+                <h4 class="d-inline-block text-white mb-0"> {{ post.title }}</h4>
+            </div>
+            {% endif %}
+            <!-- End Video Content Section -->
+        </div>
+        <h2 class="h5">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.excerpt | strip_html | truncatewords:15 }}
+            </a>
+        </h2>
+    </div>
+
+</article>
+{% endif %}
+{% if post.bg_image %}
+<article
+    class="d-flex align-items-start flex-wrap height-380 gradient-overlay-half-dark-v2 bg-img-hero rounded-pseudo transition-3d-hover p-5 mt-1"
+    style="{{ post.bg_image }}">
+    <header class="w-100 d-flex justify-content-between mb-3">
+        <!-- Author -->
+        {% if post.author %}
+        <div class="media align-items-center">
+            <a class="u-sm-avatar position-relative mr-3" href="#">
+                {% if author.avatar %}
+                <img class="img-fluid rounded-circle" src="{{site.baseurl}}/{{ author.avatar }}"
+                    alt="{{ author.display_name }}">
+                {% else %}
+                <img class="img-fluid rounded-circle"
+                    src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
+                    alt="{{ author.display_name }}">
+
+                {% endif %}
+                <span class="badge badge-primary badge-pos badge-pos--bottom-right rounded-circle">+</span>
+            </a>
+            <div class="media-body">
+                <h3 class="h6 text-white mb-0"><a href="{{ author.web }}">{{ author.display_name }}</a></h3>
+            </div>
+        </div>
+        {% endif %}
+        <!-- End Author -->
+        <small class="d-block text-white-70">
+            {{ post.date | date_to_string }}
+        </small>
+    </header><!-- Info -->
+    <div class="mt-auto">
+        <h2 class="h5 text-white">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="text-white-70 mb-0">
+            {{ post.excerpt | strip_html | truncatewords:15 }}
+        </p>
+    </div><!-- End Info -->
+</article>
+{% endif %}

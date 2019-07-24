@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div>    
+    <div class="container-fluid position-relative space-2 space-top-md-5 space-bottom-md-3 z-index-2"
+        style="{{ page.hero_image}}">
+        <div class="w-lg-80 text-center mx-auto {% if page.text_color %} {{ page.text_color }} {% endif %}">
+            <h1 class="display-3 font-size-md-down-5 font-weight-semi-bold">{{ page.page_title }}</h1>
+            {% if page.page_sub_title %}
+            <p class="lead {% if page.text_color %} {{ page.text_color }} {% endif %}">{{ page.page_sub_title }}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="">
+    {{content}}
+</div>
+<script src="../assets/"></script>

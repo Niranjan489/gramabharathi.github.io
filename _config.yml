@@ -1,34 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Gramabharathi 
+email: org.gramabharathi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Gramabharathi vission is to protecting the Traditional Wealth like Soil Wealth(Bhoo Sampadha), Cow Wealth(Gow Sampadha), Forest Wealth(Vana Sampadha),
+  Water Wealth(Jala Sampadha), Human Resources(Jana Sampadha), Bio Deversity(Jeeva Sampadha), Natural Energies(Urja Sampadha - Tidal, Hydal, Wind and Solar Poser)
+baseurl: ""
+url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
+paginate: 5
+paginate_path: /page:num/
 
-# Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Authors
+authors:
+  balu:
+    name: Jinna Balu
+    display_name: Jinna Balu
+    gravatar: 24b94c438636e3d95a32f72999d5081f
+    email: jinna.balu@outllok.com
+    web: https://jinnabalu.github.io
+    twitter: https://twitter.com/JinnaBalu
+    twitter_username: JinnaBalu
+    description: "Platform Engineer @ Wisestep Inc, Developer and maintainer of Platform Ops"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
