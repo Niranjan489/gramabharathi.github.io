@@ -9,6 +9,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 paginate: 5
 paginate_path: /page:num/
+permalink: /:categories/:title/
 
 markdown: kramdown
 theme: minima
@@ -17,6 +18,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 # Authors
 authors:

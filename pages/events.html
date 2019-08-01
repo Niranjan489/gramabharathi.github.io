@@ -3,7 +3,7 @@ title: Grama Bharathi
 layout: default
 permalink: /Events
 ---
-<div class="container-fluid position-relative space-top-md-5 z-index-2"
+<div class="container-fluid space-top-md-5"
     style="height: 120%; background-image: url(&quot;../../assets/nature/green.jpeg&quot;); transform: translate3d(0px, -52.6055px, 0px);">
     <div class="w-lg-80 text-center mx-auto text-white">
         <h1 class="display-3 font-size-md-down-5 font-weight-semi-bold">Activities and Events</h1>
@@ -11,19 +11,55 @@ permalink: /Events
         <p class="lead text-white">Join your hands with us</p>
 
     </div>
-</div>
-<div class="clearfix">
-    <main id="content" role="main">
-        <div class="bg-light space-bottom-2">
-            <div class="container-fluid u-cubeportfolio py-3">
-                <section class="recent-posts">
-                    <div class="card-columns listrecent">
-                        {% for post in site.posts %}
-                        {% include postbox.html %}
-                        {% endfor %}
-                    </div>
-                </section>
+    <div class="container-fluid bg-white">
+        <br>
+        <div class="row">
+            <div class="col-xl-12 mb-5 mb-xl-0">
+                <ul class="nav nav-classic">
+
+                    {% assign categories_list = site.categories %}
+                    {% if categories_list.first[0] == null %}
+                    {% for category in categories_list %}
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">
+                            {{ category | camelcase }}
+                            ({{ site.tags[category].size }})
+                        </a>
+                    </li>
+                    {% endfor %}
+                    {% else %}
+                    {% for category in categories_list %}
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">
+                            {{ category[0] | camelcase }}
+                            ({{ category[1].size }})
+                        </a>
+                    </li>
+                    {% endfor %}
+                    {% endif %}
+                    {% assign categories_list = nil %}
+                    <!-- <li class="nav-item"><br>
+                        {% include search-lunr.html %}
+                    </li> -->
+                </ul>
             </div>
         </div>
-    </main>
+    </div>
+    <div class="clearfix">
+        <main id="content" role="main">
+            <div class="bg-light space-bottom-2">
+                <div class="container-fluid py-3">
+                    <section class="recent-posts">
+                        <div class="card-columns listrecent">
+                            {% for post in site.posts %}
+                            {% include postbox.html %}
+                            {% endfor %}
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
 </div>

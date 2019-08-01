@@ -1,6 +1,6 @@
 About Us:
 
-Rural Development : 23 villages from all the districts of Telangana and Rayalaseema have been adopted for comprehensive rural development under the active banner of Grama Bharathi. Grama Bharathi is a rural service wing of Seva Bharati working for the integrated development of Rural Areas and People. At least one village is selected from each district for this purpose and programs are conducted, so that the village is transformed into an ideal village, in a phased manner, in about 5 years. At present 10 such villages are there in 7 districts. These villages have their development committees. The activities are mainly on village Health, Character building, Education, Swavalamban and Sanghatan.
+Rural Development : 23 villages from all the districts of Telangana and Rayalaseema have been adopted for comprehensive Rural Development under the active banner of Grama Bharathi. Grama Bharathi is a rural service wing of Seva Bharati working for the integrated development of Rural Areas and People. At least one village is selected from each district for this purpose and programs are conducted, so that the village is transformed into an ideal village, in a phased manner, in about 5 years. At present 10 such villages are there in 7 districts. These villages have their development committees. The activities are mainly on village Health, Character building, Education, Swavalamban and Sanghatan.
 
 1. CHITYAL:
 
