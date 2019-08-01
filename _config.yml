@@ -1,43 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+# Site
+name: "Grama Bharathi"
+title: "Grama Bharathi"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Gramabharathi vission is to protecting the Traditional Wealth like Soil Wealth(Bhoo Sampadha), Cow Wealth(Gow Sampadha), Forest Wealth(Vana Sampadha),
+  Water Wealth(Jala Sampadha), Human Resources(Jana Sampadha), Bio Deversity(Jeeva Sampadha), Natural Energies(Urja Sampadha - Tidal, Hydal, Wind and Solar Poser)
+meta_description: >- # this means to ignore newlines until "baseurl:"
+  Gramabharathi vission is to protecting the Traditional Wealth like Soil Wealth(Bhoo Sampadha), Cow Wealth(Gow Sampadha), Forest Wealth(Vana Sampadha),
+  Water Wealth(Jala Sampadha), Human Resources(Jana Sampadha), Bio Deversity(Jeeva Sampadha), Natural Energies(Urja Sampadha - Tidal, Hydal, Wind and Solar Poser)
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.png'
+paginate: 8
+baseurl: ''
+email: 'jinna.balu@outllok.com'
+google_analytics: 'UA-144977506-1'
+disqus: 'grama-bharathi'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5d413865ee1138001128e66b&product=sticky-share-buttons"></script>'
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
+# Authors
+authors:
+  balu:
+    name: Jinna Balu
+    display_name: Jinna Balu
+    gravatar: 24b94c438636e3d95a32f72999d5081f
+    email: jinna.balu@outllok.com
+    web: https://jinnabalu.github.io
+    twitter: https://twitter.com/JinnaBalu
+    twitter_username: JinnaBalu
+    description: "Platform Engineer @ Wisestep Inc, Developer and maintainer of Platform Ops"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge

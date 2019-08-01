@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="container space-top-2">
+    <div class="position-relative z-index-2 full-width">
+        <div class="container w-md-80 w-lg-50 mx-md-auto mb-9">
+            {% if page.page_title %}
+            <h2 class="text-gb font-weight-semi-bold">{{ page.page_title }}</h2>
+            {% elsif page.title %}
+            <h2 class="text-gb font-weight-semi-bold">{{ page.title }}</h2>
+            {% endif %}
+            <hr>
+            {% if page.page_sub_title %}
+            <!-- <p class="lead {% if page.text_color %} {{ page.text_color }} {% endif %}">{{ page.page_sub_title }}</p> -->
+            {% endif %}
+        </div>
+        <div class="container">
+            {% if page.hero_intro %}
+            <p>
+                {{ page.hero_intro }}
+            </p>
+            {% endif %}
+            {% if page.hero_image %}
+            <div class="space-1">
+                <img class="img-fluid rounded" src="{{ page.hero_image}}" alt="Gramabharathi">
+            </div>
+            {% endif %}
+        </div>
+        <div class="container space-1">
+            {{content}}
+        </div>
+        <div class="row">
+            <div class="col">
+                {% if page.comments == true %}
+                <div id="comments" class="row mb-5">
+                    <div class="col-md-8">
+                        {% include disqus.html %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
