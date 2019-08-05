@@ -2,9 +2,10 @@
 title: Run 4 Orphans & Feed their need
 page_title: Airtel Marathon 2019
 page_sub_title: RUN 4 ORPHANS & FEED THEIR NEED
-layout: page
+layout: post
 hero_intro: Airtel Hyderabad Marathon 2019 on 25 Aug to raise funds and awareness about Gramabharati activities across Telangana
 permalink: /airtel-marethon-2019
+categories: [ Airtel Marathon ]
 image: assets/images/gb_banner.jpg
 ---
 
