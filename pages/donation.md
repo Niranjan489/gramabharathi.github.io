@@ -36,3 +36,13 @@ P. JAGAT REDDY
 
 G. NARASIMHA
  9866295792
+
+###  Direct Donations
+
+Grama Bharathi/SBI, 
+
+Branch,Barkatpura, 
+
+Account number 10006591956 
+
+IFSC code/SBIN0007641
