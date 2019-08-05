@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 meta_description: >- # this means to ignore newlines until "baseurl:"
   Gramabharathi vission is to protecting the Traditional Wealth like Soil Wealth(Bhoo Sampadha), Cow Wealth(Gow Sampadha), Forest Wealth(Vana Sampadha),
   Water Wealth(Jala Sampadha), Human Resources(Jana Sampadha), Bio Deversity(Jeeva Sampadha), Natural Energies(Urja Sampadha - Tidal, Hydal, Wind and Solar Poser)
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo-sm.jpg'
 favicon: 'assets/images/favicon.png'
 paginate: 8
 baseurl: ''
