@@ -4,7 +4,7 @@ services:
   site:
     container_name: platformops
     command: jekyll serve --watch --drafts
-    image: jekyll/jekyll:latest
+    image: jekyll/jekyll:3.8.6
     volumes:
       - $PWD:/srv/jekyll
     ports:
