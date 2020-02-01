@@ -3,9 +3,51 @@ title: About Grama Bharathi
 page_title: About Us
 page_sub_title: Self Sustained Village Development
 layout: page
-hero_intro: Grama Bharathi started in 1999 in the Marriguda village from Nalgonda district for the development of backward and remote Villages and to build the confident in villagers
+hero_intro: Gram Bharati is an registered organization under Societies Act (NGO),  act as catalyst for channelizing the local people resources for regeneration of village life and support in self sustain villages
 permalink: /about-us/
 ---
+
+
+Gram Bharati came into picture on 1996. Its long-term initiatives focus on comprehensive rural development
+
+#### Vision
+
+Grama Bharati would be a known organization in channelizing the people strengths for integrated development of villages  i.e  AGRICULTURE , HORTICULTURE  FARMING  SECTORS and resources. (particularly in States of Telangana)
+
+*Problems in FARMING sector*
+
+- Dependency
+- SOIL HEALTH 
+- HUMAN HEALTH
+- ENVIRONMENTAL POLLUTION
+- Disturbs AGRO  ECO  SYSTEM
+- VILLAGE ECONOMY
+- REDUCTION OF CATTLE POPULATION
+- EFFECTS  NATIONAL ECONOMY
+- MIGRATION FROM RURAL  TO URBAN
+
+#### Aims
+
+- To provide AGRICULTURE,HORTICULTURE FARMAR professionals support in collective development efforts in general and for self –sufficiency and self- reliant  villages in particular. 
+
+- Organizing ZERO BUDGET NATURAL  FARMING  awareness  training programs for FARMARS.
+
+- To build concepts on  water conservation, environment protection and bio–diversity.
+
+- Also  monitoring the implementation process of ZERO BUDGET NATURAL  FARMING by INDIAN FARMING COMMUNITY.
+
+#### SOLUTIONS:- ZERO BUDGET NATURAL FARMING
+
+- Desi /Indian cow can answer independent farming.
+- Increases SOIL micro biol activity
+- Sustainable soil health will produce healthy food
+- Cow based pesticides  will not disturb environment and AGRO ECO SYSTEM
+- Zero usage of fertilizers  and pesticides  will save the Farmer and village and economy
+- Single Desi cow provides inputs for 30 acre cultivation
+- Does the CATTLE population also saved
+- RS 60,000 CRORES of Government subsidy on FERTILISERS can be saved i.e Foreign Exchange.
+- ZERO BUDGET NATURAL FARMING Society formation is under the process .
+
 
 #### Mission
 
