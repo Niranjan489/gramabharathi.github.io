@@ -1,0 +1,24 @@
+---
+layout: page
+title: COVID-19 Actions
+text_color: text-primary
+permalink: /covid-19-actions
+---
+<div class="masonrygrid listrecent">
+    {% for post in site.posts %}
+
+    {% unless post.featured == true %}
+    {% if post.tags contains 'Covid' %}
+    {% include postbox.html %}
+    {% endif %}
+
+    {% endunless %}
+
+    {% endfor %}
+
+</div>
+<div class="bottompagination">
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
+</div>
