@@ -34,17 +34,11 @@
 
 </head>
 
-
-
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-
-<body class="{{ layout }}">
+<body>
     <div class="site-content">
-
         <div class="main-content">
             {{ content }}
         </div>
-
     </div>
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
