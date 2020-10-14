@@ -1,0 +1,19 @@
+presenter:
+  - title: Configure git
+    description: |
+      <p>*వక్త* శ్రీ నిమ్మల రామచంద్రయ్య గారు, మిత్రా ఫౌండేషన్ ద్వారా గత 15 సంవత్సరాలుగా నాబార్డ్, కేంద్రప్రభుత్వ , PMEGP, MSME
+      మొదలగు సంస్థల అనుసంధానం తో దాదాపు 480 రైతు క్లబ్ లు, 22 FPO లు ఏర్పరచడంతో పాటు మరెన్నో పథకాల అమలుకు కృషి చేస్తూ,
+      రైతులను చైతన్య పరిచే YouTube వీడియోలు కూడా చేస్తున్నారు.
+      </p>
+      <p>
+      కేంద్రప్రభుత్వం, నాబార్డ్, MSME(సూక్ష్మ, చిన్న, మధ్య తరహా పరిశ్రమలు) - గ్రామీణ యువతకూ మరియు రైతులకు ఉపయోగ పడే
+      పథకాలు.
+      </p>
+    command: |
+      # Global Config      <br>
+      git config --global user.name "Your Name" <br>
+      git config --global user.email yourmail@domain.tld <br><br>
+
+      # Repository Config - useful when you work with multiple business emails<br>
+      git config --global user.name "Your Name"<br>
+      git config --global user.email yourmail@domain.com <br>
