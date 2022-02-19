@@ -1,12 +1,3 @@
----
-title: About Grama Bharathi
-page_title: About Us
-page_sub_title: Self Sustained Village Development
-layout: page
-hero_intro: Gram Bharati is an registered organization under Societies Act (NGO),  act as catalyst for channelizing the local people resources for regeneration of village life and support in self sustain villages
-permalink: /about-us/
----
-
 
 Gram Bharati came into picture on 1996. Its long-term initiatives focus on comprehensive rural development
 

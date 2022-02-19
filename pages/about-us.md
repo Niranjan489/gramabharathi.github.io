@@ -1,48 +1,20 @@
-About Us:
-
-Rural Development : 23 villages from all the districts of Telangana and Rayalaseema have been adopted for comprehensive Rural Development under the active banner of Grama Bharathi. Grama Bharathi is a rural service wing of Seva Bharati working for the integrated development of Rural Areas and People. At least one village is selected from each district for this purpose and programs are conducted, so that the village is transformed into an ideal village, in a phased manner, in about 5 years. At present 10 such villages are there in 7 districts. These villages have their development committees. The activities are mainly on village Health, Character building, Education, Swavalamban and Sanghatan.
-
-1. CHITYAL:
-
-
-A Village in the Naxal infected area of Warangal Dt. with a Population of 2000. Here the development activities are going on since 26 years. A native Doctor (Dr.B.Surendra Reddy, M.B.B.S.,)has taken the lead, who stayed there and worked as general practitioner for 26 years, it is he who Initiated developmental activities in the village viz., Health camps, Dharmajagaran, Samskar Kendram, School, Coaching classes, Intensive training in modern Cultivational methods, Thrift programs, Mahila Jagaran, Youth activities, Stitching center for S.C.Women, collective celebration of Hindu Festivals (especially Vijaya Dashami, when almost all the people of the village come together for Jhami Pooja) etc.
-
-In this village we see a hormoneous dwelling of all the people irrespective of their caste, creed, political affiliation etc. There is no untouchabelity here. All the castes including S.C., S.T. communities are equally invited and dine together at their ceremonies.
-
-A seva kendra Bhavan is built to gear-up all these activities, through Shramadan and funds raised by the villagers. The village is in a hot bed of Naxalities. They did not tolerate all these activities and blewup the building recently. By doing such a slanderous act they got the wrath of the people. At present our activities are mainly based on Single teacher schools. About 13such schools are being run in and around the village. Though these schools all the activities are going on smoothly.
-
-2. GURREVULA
-GURREVULA is a corner, agency & backward area in Warangal district. It is the native village of Sri Akuthota Rama Rao, a dedicated Social worker. He initiated the developmental activities in 1991. Having took ill for some time he was forced to stay at his village for 3 years. It is in this period he had a chance to shape the village. Here the activities are mainly on Samskara, Education and Thrift programs. A school building is built by the villagers with their Shramdan.
-
-There are 250 members in the thrift program in which 150 are women. The total savings come up to more than 4 lakh rupees. There are 5 village level Samithis each for a temple, a school, savings, youth activities and Grama Bharathi. Rama Mandir is the center of activity for the entire village. There is no untouchability now. All the castes came together and sit together in the Mandir. Though this village is also surrounded by Naxalites, all the activities are going on smoothly.
+---
+layout: page
+title: About Grama Bharathi
+page_title: About Us
+page_sub_title: Self Sustained Village Development
+layout: page
+hero_intro: Grand Bharathi was established in 1997 as a NGO with the sole objective off making Indian villages self-sufficient vibrant while preserving natural resources.
+permalink: /about-us/
+---
 
 
-3. Marrigudem
+Grama Bharati has several aims and objectives which together would help realize in making the Indian villages independent and self-reliant. The NGO was started by few dedicated social workers and quickly grew into a statewide dedicated volunteer social workers group. These volunteers continue to grow and operate. This dedicated team works tirelessly to ensure the
 
-Marrigudem is another village worth mentioning near Gurrevvla in Warangal dt. with a population of 1500. Marrigudem is another effort worth mentioning. Sri Madhu Reddy a NRI of the village, donated 20 acres of land to Grama Bharati for the developmental activities in the village
+projects get implemented with tangible results time and again. Grama Bharathi has volunteers across Telangana state covering all the 31 Districts of Telangana State. Each district has a district level committee and to a large extent operates autonomously dealing with complicated local issues and finding solutions to solve those issues. Each district level committee works very closely with the state body which is headquartered in Hyderabad city the capital of Telangana. The state governing committee off Grama Bharathi is comprised of well-known social workers who specialize in operating these projects successfully and have a deep understanding off the local problems, culture, people, landscape and the environment.
 
-. After digging some borewells, the entire area is brought under Horticulture and other plantation. There is a stitching center for women, study center for high school boys of weaker sections, free coaching center for 10th class students, non formal schools, youth activities, vermy culture, Sanitation programs etc.,. We are planing to make it a “Demonstrative- Farm” and a training center for dryland cultivation.
+Grama Bharathi has a huge volunteer base and a robust farmer membership across all the 31 districts of Telangana. Grama Bharathi implements projects which cover every aspect of the rural life in the state of Telangana. The Integrated Rural Development projects include the following but are not limited to them.
 
-We shall have a ‘ Goshala ’,“Aushadi Udyan (medicinal plants), An enterprenuering cottage industry. Marrigudem is a backward area with a least rainfall. It is a highly ‘Florine’ affected area. We have taken mass awakening programs to drink deflorinated water and to keep the village clean and green.
+Grama Bharathi operates a boy’s hostel, a horticulture college, conducts frequent farmer training in adopting natural farming methods, water conservation, animal husbandry techniques including saving the natives cow breeds of India, integrated farming techniques, women and child health, development of schools in remote rural areas, promoting Indian Culture and heritage, promoting spiritual health of the rural communities while ensuring these rural areas become self-reliant. Grama Bharathi conducts weekly zoom sessions every Sunday evening in educating farmers about natural farming methods, seed rotation, farming techniques, farming instrumentation, natural way of pest and insect control, innovative nonchemical solutions in dealing with pest and insect problems in the natural farming. Grama Bharathi also as an NGO stands behind its members or for that matter any farmer in understanding their problems in real time and help solve those problems as needed. Most of the farmers who follow Grama Bharathi have low literacy rates with very limited communication skills. Grama Bharathi volunteers make every effort to ensure these farmers and their problems are well understood and stay with them until the problems are solved.
 
-4. Kollampalli
-
-Kollampalli is a village with a population of 5000 in the most backward district of Andhra Pradesh the MAHABOOBNAGAR with a minimum rainfall. The villagers built a Community hall and a school building with contributions by each one of them and Shramadan. A primary school is being run in which about 50 S.T. Students are there from the surrounding Tandas. Thrift program, Single Teachers Schools, Weaker section study center for poor students, Bhajan mandalis, Matru Mandali, Sanitation etc., are some of the activities run in the village.
-
-
-5. Kalpagvru
-
-Kalpagvru is situated about 5 k.m. from the district head quarter Sangareddy has a population of 5000. A School, Study center, Thrift program (where the deposits exceeded 4 lakhs with 200 numbers), Sanitation, Plantation programs etc., are there. The center of activity of the village is Sri Kasi Vishweshvara Temple which is renevated by the villagers recently.
-
-6. Mategaon
-
-Mategaon with a population of 4000 is located 5kms away from BHAINSA ADILABAD DT. A weekly Medical aid center is run by the doctors from Bhainsa which is about 5 km. Samskara classes for girls and boys, youth association, Bhajan mandali etc., are some of the activities of the village. Villagers layed an approach road and plantation done by Shramdan. Coaching classes, non-formal education, Sanitation etc., are some of the activities. Cow – slanghter is prevented by the village youth Chirutala Ramayanam is a popular cultural activity of the village.
-
-7. ETURUNAGARAM, is another village worth mentioning near Gurrevvla in Warangal dt. with a population of 1500. Marrigudem is another effort worth mentioning. Sri Madhu Reddy a NRI of the village, donated 20 acres of land to Grama Bharati for the developmental activities in the village. After digging some borewells, the entire area is brought under Horticulture and other plantation. There is a stitching center for women, study center for high school boys of weaker sections, free coaching center for 10th class students, non formal schools, youth activities, vermy culture, Sanitation programs etc.,. We are planing to make it a “Demonstrative- Farm” and a training center for dryland cultivation.
-
-
-8. MANYAPUR is a village in Nizamabad Dt. witha apopulation of 1200. The Village is constituted of mostly backward communities. Bhajan Mandali, Plantation, Saving programs etc., are some of the activities of the village.
-
-9. GOGILLA PURAM in WARANGAL DT. with 3000 population has been a constant place of efort for GRAMA BHARATHI. A Samskara kendra for girls and 10 Single teacher schools are there in and around the village.
-
-10. KARUDIPALLY in ANANTAPUR DT. witha population of 1200 is another village where constant efforts are being made for integrated Development. Bhajan Mandali, Games competitions are some of the activities of Karudipally.
+Apart from the farming arena Grama Bharathi teams spend a lot of time understanding the infrastructure issues in villages. They work hand in hand with the local population to find creative solutions in building the rural infrastructure. Water conservation is one of the key areas Grama Bharathi has worked in the past which includes building of check dams, installation of RO systems, in building water table recharge pits which allows rainwater to replenish groundwater by recharging the underground aquifers.
