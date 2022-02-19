@@ -20,14 +20,14 @@ sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/
 # Authors
 authors:
   balu:
-    name: Jinna Balu
-    display_name: Jinna Balu
+    name: Gramabharathi Member
+    display_name: Gramabharathi Member
     gravatar: 24b94c438636e3d95a32f72999d5081f
     email: jinna.balu@outllok.com
     web: https://jinnabalu.github.io
     twitter: https://twitter.com/JinnaBalu
     twitter_username: JinnaBalu
-    description: "Platform Engineer @ Wisestep Inc, Developer and maintainer of Platform Ops"
+    description: "Volunteer at Gramabharathi"
 
 # Plugins
 plugins: 
