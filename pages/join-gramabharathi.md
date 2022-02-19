@@ -5,7 +5,7 @@ page_title: Join Us
 page_sub_title: The Joy of giving back to the Society
 hero_intro: Meet the young minds of Grama Bharathi discussing strategy of their respective Sub Committees in achieving Grama Bharathi's short / long term goals of village development
 permalink: /join-gramabharathi
-hero_image: "/assets/images/join-us-6.png"
+hero_image: "/assets/images/seedball-prep-8.jpg"
 ---
 
 <br>
