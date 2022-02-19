@@ -18,14 +18,17 @@
 
     {% if jekyll.environment == 'production' %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131515261-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131515261-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-131515261-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131515261-1');
+    </script>
 
     {% endif %}
 
@@ -140,16 +143,18 @@
                         <a target="_blank" href="https://www.facebook.com/gramabharathii/">
                             <i class="fa fa-facebook"></i>
                         </a>
-                        <i class="fa fa-twitter"></i>
-                        <i class="fa fa-google"></i>
-                        <i class="fa fa-pinterest"></i>
+
+                        <a target="_blank" href="https://twitter.com/gramabharathi/status/1494515573832699920?s=24">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/p/CaCRf-qpa8H/?utm_medium=share_sheet">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Begin Footer
-    ================================================== -->
         <footer class="footer position-relative border-top">
             <div class="container">
                 <div class="row text-secondary">
@@ -165,8 +170,10 @@
                             <h5>RESOURCES</h5>
                             <ul>
                                 <li><a href="{{ site.baseurl }}/vision-and-mission">Vision and Mission</a></li>
-                                <li><a href="{{ site.baseurl }}/gramabharathi-team#executive-team">Executive Team</a></li>
-                                <li><a href="{{ site.baseurl }}/gramabharathi-team#state-committee">State Committee</a></li>
+                                <li><a href="{{ site.baseurl }}/gramabharathi-team#executive-team">Executive Team</a>
+                                </li>
+                                <li><a href="{{ site.baseurl }}/gramabharathi-team#state-committee">State Committee</a>
+                                </li>
                                 <li><a href="{{ site.baseurl }}/gramabharathi-team#advisory-team">Advisory Team</a></li>
                                 <li><a href="{{ site.baseurl }}/Anual-Reports">Anual Reports</a></li>
                                 <li><a href="{{ site.baseurl }}/contact-us">How Is Your Money Spent</a></li>
@@ -228,11 +235,11 @@
     </div>
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
     <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
     <script src="{{ site.baseurl }}/assets/js/theme.js"></script>

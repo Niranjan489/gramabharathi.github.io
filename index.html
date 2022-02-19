@@ -326,34 +326,3 @@ image: /assets/images/logo.png
         </div>
     </div>
 </div>
-<hr class="full-width">
-<div class="container space-top-2">
-    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
-        <h2 class="text-gb font-weight-semi-bold">News & Events</h2>
-    </div>
-
-    <div class="masonrygrid row listrecent space-top-2">
-
-        {% for post in paginator.posts %}
-
-        {% unless post.featured == true %}
-
-        {% include postbox.html %}
-
-        {% endunless %}
-
-        {% endfor %}
-
-    </div>
-
-    <!-- Pagination -->
-    <div class="bottompagination">
-
-        <span class="navigation" role="navigation">
-
-            {% include pagination.html %}
-
-        </span>
-
-    </div>
-</div>
