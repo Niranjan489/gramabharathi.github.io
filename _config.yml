@@ -48,3 +48,33 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+team:
+  executive-team:
+    - name: Sri Komatireddy Raja Reddy
+      role: President
+      profile_url: /assets/images/rajareddy.jpeg
+    - name: Sri Mohan
+      role: Vice President
+    - name: Sri Palusa Karunakar Goud
+      role: Secretary
+    - name: Sri Utikuri Lingam Goud
+      role: Organizing Secretary
+    - name: Sri Pabba Venkat Reddy
+      role: Treasurer
+  state-team:
+    - name: Sri Moturi Surya Kala
+    - name: Sri Varanasi Kapardi Sharma
+    - name: Dr. Chinnamaneni Padma
+    - name: Sri Sama Yella Reddy
+      profile_url: 
+    - name: Sri Pulusu Madan Gupta
+    - name: Dr. Sowmini Sunkara
+      profile_url: /assets/images/soumini.jpeg
+      linkedin_url: https://www.linkedin.com/in/sowminisunkara
+      description: Agri-professional holding Doctor of Philosophy (PhD) in Biotechnology with 15+ years of experience in research
+  advisory-team:
+    - name: Sri Jinna Satyanarayana Reddy
+    - name: Sri Sudine Sthambadri Reddy
+    - name: Sri Akuthota Ramarao
+    - name: Sri B. Sunder Reddy
+  
