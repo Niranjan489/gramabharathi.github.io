@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-admin
         
 # Archives
 jekyll-archives:
@@ -48,6 +49,16 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  
 team:
   executive-team:
     - name: Sri Komatireddy Raja Reddy
