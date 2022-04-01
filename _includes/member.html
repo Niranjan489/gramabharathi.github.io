@@ -1,0 +1,33 @@
+<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+    <div class="our-team">
+        <div class="team_img">
+            {% if member.profile_url %}
+            <img src="{{member.profile_url}}" alt="{{member.name}}" tooltip="{{member.description}}">
+            {% else %}
+            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="team-image">
+            {% endif %}
+            <ul class="social">
+                {% if member.fb_url %}
+                <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                {% endif %}
+                {% if member.twitter_url %}
+                <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                {% endif %}
+                {% if member.linkedin_url %}
+                <li><a target="_blank" href="{{member.linkedin_url}}"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if member.instagram_url %}
+                <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="team-content">
+            {% if member.name %}
+            <h3 class="title">{{member.name}}</h3>
+            {% endif %}
+            {% if member.role %}
+            <span class="post">{{member.role}}</span>
+            {% endif %}
+        </div>
+    </div>
+</div>

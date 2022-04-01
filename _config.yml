@@ -20,14 +20,14 @@ sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/
 # Authors
 authors:
   balu:
-    name: Jinna Balu
-    display_name: Jinna Balu
+    name: Gramabharathi Member
+    display_name: Gramabharathi Member
     gravatar: 24b94c438636e3d95a32f72999d5081f
     email: jinna.balu@outllok.com
     web: https://jinnabalu.github.io
     twitter: https://twitter.com/JinnaBalu
     twitter_username: JinnaBalu
-    description: "Platform Engineer @ Wisestep Inc, Developer and maintainer of Platform Ops"
+    description: "Volunteer at Gramabharathi"
 
 # Plugins
 plugins: 
@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-admin
         
 # Archives
 jekyll-archives:
@@ -48,3 +49,43 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  
+team:
+  executive-team:
+    - name: Sri Komatireddy Raja Reddy
+      role: President
+      profile_url: /assets/images/rajareddy.jpeg
+    - name: Sri Paladi Mohanaiah
+      role: Vice President
+    - name: Sri Palusa Karunakar Goud
+      role: Secretary
+    - name: Sri Utikuri Lingam Goud
+      role: Organizing Secretary
+    - name: Sri Pabba Venkat Reddy
+      role: Treasurer
+  state-team:
+    - name: Sri Moturi Surya Kala
+    - name: Sri Varanasi Kapardi Sharma
+    - name: Dr. Chinnamaneni Padma
+    - name: Sri Sama Yella Reddy
+      profile_url: 
+    - name: Sri Pulusu Madan Gupta
+    - name: Dr. Sowmini Sunkara
+      profile_url: /assets/images/soumini.jpeg
+      linkedin_url: https://www.linkedin.com/in/sowminisunkara
+      description: Agri-professional holding Doctor of Philosophy (PhD) in Biotechnology with 15+ years of experience in research
+  advisory-team:
+    - name: Sri Jinna Satyanarayana Reddy
+    - name: Sri Sudine Sthambadri Reddy
+    - name: Sri Akuthota Ramarao
+    - name: Sri B. Sunder Reddy
+  
